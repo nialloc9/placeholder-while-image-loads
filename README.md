@@ -1,6 +1,6 @@
 An example of rendering an image with a placeholder background color and icon while waiting for the image to load.
 
-While image is loading a placeholder icon and background color are rendered on initial paint:
+By providing an aspect ratio while image is loading a placeholder icon and background color are rendered on initial paint:
 
 <p align="center">
   <img src="/screenshots/image-loading.png" width="700" title="Image loading shows placeholder">
