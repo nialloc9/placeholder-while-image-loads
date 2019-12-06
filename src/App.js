@@ -1,25 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import styled from "@emotion/styled";
+import ImageWithPlaceholder from "./image-with-placeholder";
+
+const Container = styled.div`
+  width: 500px;
+  margin: auto;
+`;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container>
+      <h1>Image With Placeholder</h1>
+      <ImageWithPlaceholder src="https://www.shutterbug.com/images/styles/600_wide/public/Aspect-ratio-3x2.jpg" aspectRatio="3:2" backgroundColor="lightgrey" />
+    </Container>
   );
 }
 
