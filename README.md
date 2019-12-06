@@ -1,0 +1,1 @@
+An example of rendering an image with a placeholder background color and icon while waiting for the image to load.
